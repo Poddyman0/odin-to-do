@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+	<script src="index.js"></script>
+    <h1>Sort Your Life Out: <h4>A to do list web app.</h4></h1>
+    <form id="new-todo-task-form" class="formLook">
+        <br>
+        <label for="title">Title: </label>
+        <input id="title" name="title" type="text" class="form-control" required>
+
+        <label for="description">Description: </label>
+        <input id="description" name="description" class="form-control" type="text" required>
+
+        <label for="dueDate">Due Date: </label>
+        <input  id="dueDate" name="dueDate" class="form-control" type="date" required>
+
+        <label for="priority">Priority: </label>
+        <select id="priority" name="priority" class="form-control" required>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+
+        <label for="notes">Notes: </label>
+        <input id="notes" name="notes" type="text" class="form-control" required>
+        
+        
+        <label for="checklistCheckboxContainer">Checklist: </label>
+        <br>
+        <button id="addToChecklistBtn" name="addToChecklistBtn" class="btn btn-primary">Add Checkbox</button>
+        <br>
+        <br>
+        <div id="checklistCheckboxContainer">
+        </div>
+
+
+        <label for="projectList">Add To Existing Project:</label>
+        <select  id="projectList" name="priority" class="form-control">
+        </select>
+        <br>
+        <div><strong>OR</strong></div>
+        <br>
+        <label for="toDoToProject">Create New Project: </label>
+        <input id="toDoToProject" name="toDoToProject" class="form-control" type="taxt">
+        <br>
+        <button id="submit" name="submit" type="submit" class="btn btn-primary">Submit</button> 
+        <br>
+    </form>
+
+    <div id="projectContainer">
+
+
+    </div>
+  </body>
+</html>

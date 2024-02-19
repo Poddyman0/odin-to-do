@@ -1,0 +1,56 @@
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+#projectContainer {
+    width: 80vw;
+
+}
+
+.project-card {
+    background-color: beige;
+    margin: 20px;
+    border: 2px solid rgb(239, 208, 121);
+    padding: 10px
+}
+
+.formLook {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.edditFormLook{
+
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.low-priority {
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
+}
+
+.medium-priority {
+    background-color: orange;
+    padding: 10px;
+    margin: 10px;
+}
+
+.high-priority {
+    background-color: rgb(255, 58, 58);
+    padding: 10px;
+    margin: 10px;
+}
